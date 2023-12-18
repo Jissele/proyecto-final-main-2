@@ -1,0 +1,25 @@
+.dashboard {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.d-buttons {
+    display: flex;
+    justify-content: space-around;
+    gap: 100px;
+}
+.button {
+    height: 50px;
+    width: 180px;
+}
+
+.d-galery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-top: 20px;
+}
